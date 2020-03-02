@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/inn6"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Room"></activity>
+        <activity android:name=".Electricty" />
+        <activity android:name=".Laundry" />
+        <activity android:name=".Gym" />
+        <activity android:name=".edittimetable" />
+        <activity android:name=".editsunday" />
+        <activity android:name=".editsaturday" />
+        <activity android:name=".editfriday" />
+        <activity android:name=".editthursday" />
+        <activity android:name=".editwednesday" />
+        <activity android:name=".edittuesday" />
+        <activity android:name=".showupdate" />
+        <activity android:name=".editmonday" />
+        <activity android:name=".dashboard5" />
+        <activity android:name=".dashboard4" />
+        <activity android:name=".profile5" />
+        <activity android:name=".profile4" />
+        <activity android:name=".fee4" />
+        <activity android:name=".fee3" />
+        <activity android:name=".editfee4" />
+        <activity android:name=".editfee3" />
+        <activity android:name=".editfee2" />
+        <activity android:name=".editfee1" />
+        <activity android:name=".editshow3" />
+        <activity android:name=".editshow2" />
+        <activity android:name=".editshow1" />
+        <activity android:name=".editshow" />
+        <activity android:name=".editFee" />
+        <activity android:name=".ShowAndEditFee" />
+        <activity android:name=".adminPayment" />
+        <activity android:name=".adminProfile" />
+        <activity android:name=".adminDashboard" />
+        <activity android:name=".Facility" />
+        <activity android:name=".fee2" />
+        <activity android:name=".fee1" />
+        <activity android:name=".dashboard3" />
+        <activity android:name=".dashboard2" />
+        <activity android:name=".profile3" />
+        <activity
+            android:name=".MessTimeTable"
+            android:label="@string/title_activity_mess_time_table"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Students"
+            android:label="@string/title_activity_students"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".payment" />
+        <activity android:name=".forgetpassword" />
+        <activity android:name=".Profile2" />
+        <activity android:name=".Profile1" />
+        <activity android:name=".calender" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

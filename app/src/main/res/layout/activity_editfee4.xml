@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowAndEditFee"
+    android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:textSize="50dp"
+    android:text="FEE UPDATES"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    android:textColor="#16304E"/>
+
+
+
+    <EditText
+        android:id="@+id/hf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hostel Fee"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"/>
+
+
+
+
+    <EditText
+        android:id="@+id/sf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Security Fee"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/phf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Paid Hostel Fee Till Now"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+    <EditText
+        android:id="@+id/psf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Paid Security Fee Till Now"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/rpsf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/th"/>
+
+
+
+   </LinearLayout>

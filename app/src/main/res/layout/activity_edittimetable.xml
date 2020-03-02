@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edittimetable"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE MESS TIME TABLE"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#772424"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+    android:id="@+id/mon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="     monday"
+    android:textSize="20dp"
+    android:textAlignment="viewStart"
+    android:layout_gravity="start"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp"
+    android:background="@drawable/ed"/>
+
+
+    <Button
+        android:id="@+id/tues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     tuesday"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+
+    <Button
+        android:id="@+id/wed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     wednesday"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+
+    <Button
+        android:id="@+id/thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     thursday"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+
+    <Button
+        android:id="@+id/fri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     friday"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+
+    <Button
+        android:id="@+id/sat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     saturday"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+
+    <Button
+        android:id="@+id/sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     sunday"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+
+
+</LinearLayout>

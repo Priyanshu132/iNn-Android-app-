@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "850606608115",
+    "firebase_url": "https://inn-hostel-app.firebaseio.com",
+    "project_id": "inn-hostel-app",
+    "storage_bucket": "inn-hostel-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850606608115:android:50197684c0bf5227cbb186",
+        "android_client_info": {
+          "package_name": "com.example.inn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850606608115-2n729lv88ggiub0gobmaqg2ammkuu23p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inn",
+            "certificate_hash": "5015dfb4ae225dc61246d3abbe1eb316dcada24f"
+          }
+        },
+        {
+          "client_id": "850606608115-8vc128vdofihm3rbq5u10p286tn4osg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd6mO_13-E-xMfWxEXxYynZbbKkHiapuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850606608115-8vc128vdofihm3rbq5u10p286tn4osg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/facility1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Total"
+            android:textSize="34sp"
+            android:layout_marginLeft="50dp"/>
+
+
+        <TextView
+            android:id="@+id/th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--> Hostel Fee: 0 /-"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--> Security: 0 /-"
+            android:textSize="24sp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Paid Payment"
+            android:textSize="34sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="34dp"/>
+
+
+        <TextView
+            android:id="@+id/pph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--> Hostel Fee: 0 /-"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"/>
+
+
+
+        <TextView
+            android:id="@+id/pps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--> Security: 0 /-"
+            android:textSize="24sp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Due Payment"
+            android:textSize="34sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="34dp"/>
+
+
+        <TextView
+            android:id="@+id/dph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-->Hostel Fee: 0 /-"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:layout_marginLeft="55dp"/>
+
+        <TextView
+            android:id="@+id/dps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--> Security: 0 /-"
+            android:textSize="24sp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="R. Security"
+            android:textSize="34sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="34dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/rss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--> R .Security: 2000 /-"
+            android:textSize="24sp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

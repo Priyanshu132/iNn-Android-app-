@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/facility1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="FACILITIES"
+            android:textSize="32dp"
+            android:textColor="#000"
+            android:layout_marginRight="60dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/gym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> GYM"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/laundry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> FREE LAUNDRY"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/electricity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> ELECTRICITY 24hrs"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> AC/NON AC ROOMS"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> WIFI 24HRS (100MB/s)"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> FREE ROOM CLEANING"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> SPECIAL FOOD THRICE A WEEK"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-> WATER FILTER WITH COOLING"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>

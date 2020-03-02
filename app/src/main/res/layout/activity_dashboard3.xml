@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#00A0FF">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="40sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logout"
+        android:scaleType="centerCrop"
+        android:background="@drawable/my_button"
+        android:layout_marginTop="37dp"
+        android:layout_marginHorizontal="300dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/mp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/cal"
+                    android:src="@drawable/pro1" />
+
+
+                <ImageButton
+                    android:id="@+id/mes"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/cal"
+                    android:src="@drawable/lunch1"
+                    android:scaleType="fitCenter"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginTop="12dp"/>
+
+
+                <ImageButton
+                    android:id="@+id/faci"
+                    android:layout_width="110dp"
+                    android:background="@drawable/cal"
+                    android:layout_height="110dp"
+                    android:src="@drawable/facility"
+                    android:scaleType="fitCenter"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/feee"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/cal"
+                    android:src="@drawable/feeee"
+                    android:scaleType="fitCenter"
+                    android:layout_marginHorizontal="30dp" />
+
+
+
+
+                <ImageButton
+                    android:id="@+id/stu"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/cal"
+                    android:layout_marginHorizontal="30dp"
+                    android:src="@drawable/students"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/cal"
+                    android:layout_width="110dp"
+                    android:background="@drawable/cal"
+                    android:src="@drawable/calender"
+                    android:scaleType="fitCenter"
+
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="12dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

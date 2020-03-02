@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile1"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#00A0FF"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/im"
+        android:background="#000"/>
+
+    <ImageButton
+        android:id="@+id/p1"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/c"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HARPREET SINGH BULLAR"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/p1"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/rsb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.TECH(EN)"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/rs"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp"/>
+    <TextView
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st YEAR "
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/rsb"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="12dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/mail"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="24dp"/>
+
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon"
+                    android:layout_marginTop="100dp"/>
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location"
+                    android:layout_marginTop="110dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HARPREET23@GMAIL.COM"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No."
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8884587598"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Father's Name"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DILSHER SINGH BULLAR"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Religion"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HINDU"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MALE"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date Of Birth"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16 Sep,1999"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#000"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Permanent Address"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H.No 1/16 Sector 59 NOIDA U.P 201014"
+                    android:textSize="16dp"
+                    android:textColor="#000"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

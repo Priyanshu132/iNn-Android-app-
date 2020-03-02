@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminPayment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENTS FEE RECORD"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#772424"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   1.  rishab goel"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+    <Button
+        android:id="@+id/as"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    2.  HARPREET SINGH BULLAR"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/hsb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    3.  ARYAN SINGH"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/md"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    4.  MANPREET DHILLON"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    5.  ADNAN AFRIDI"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/dk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    6.  Dinesh KUMAR"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/ab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    7.  AMAN BANSAL"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/aa1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    8.  AYUSH AGARWAL"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    9.  SWARJ SINGH"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/am"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   10.  AJAY MISHRA"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/pr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   11. PUNEET ROY"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/sk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   12.  SHUBHAM KUMAR"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   13.  RAHUL GUPTA"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+    <Button
+        android:id="@+id/sm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   14.  SIDDHARTH MALIK"
+        android:textSize="20dp"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/ed"/>
+
+        <Button
+            android:id="@+id/ks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   15.  KAMLESH SINGH"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/dl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   16.  DEVEH LATWAL"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/kb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   17.  KARTIK BISHT"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/nt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   18.  NIKHIL TYAGI"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+
+        <Button
+            android:id="@+id/dk1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   19.  Dinesh Kumar"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/as1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   20.  Aman Singh"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/ag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   21.  Akhil Goel"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/cs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   22.  Chetan Shagudi"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/ss2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   23.  Siddharath Singhania"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+        <Button
+            android:id="@+id/as2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   24.  Anubhav Singh"
+            android:textSize="20dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/ed"/>
+
+    </LinearLayout>
+
+    </ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Electricty"
+    android:background="@drawable/facility1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRICITY"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic|bold"
+        android:textColor="#1C1866"/>
+
+
+    <View
+        android:layout_width="255dp"
+        android:layout_height="1dp"
+        android:background="#1C1866"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is a generator to supply electricity 24-hours.\nThere is no extra charges for electricity."
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"/>
+
+
+
+
+</LinearLayout>
